@@ -27,7 +27,7 @@ const Homepage = () => {
   const onFieldClear = () => {
     // random meals api is only avaiable to patreon supporters
     // so i have chosen to fetch all meals starting "s" from  api..
-    dispatch(fetchAllMeals("s"));
+    dispatch(fetchAllMeals("t"));
     setSearchValue("");
   };
 
